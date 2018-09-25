@@ -1,0 +1,15 @@
+SETUP::
+
+Step 1) run the command :: npm install
+
+Step 2) update the DB credentails in config files 
+			in "config/development.json" with dbname  as a) mongodb://localhost/BackendAssignmentMySql 
+			and 
+			in "config/test.json" with dbname  as b) mongodb://localhost/BackendAssignmentMySql_test
+
+Step 2a) In production environment, you have to create a new file as "production.json". 
+				 Copy all the contents from development.json file and modify the DB credentails for production environment.
+
+Step 3) Please go through the excel sheet file "Answer_explanation.xlsm" from the folder "BACKEND_ASSIGNMENT_TEST/Answer_explanation.xlsm".
+
+Step 4) run the command :: npm start 
